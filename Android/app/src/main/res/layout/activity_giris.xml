@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    tools:context="com.led_on_off.led.Giris"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı :"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifre :"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/kullanici"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:textColor="@android:color/black"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:background="@drawable/konteyn" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:textColor="@android:color/black"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/kullanici"
+        android:layout_alignStart="@+id/kullanici"
+        android:background="@drawable/konteyn" />
+
+    <Button
+        android:id="@+id/girisYap"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/sifre"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="@drawable/konteyn"
+        android:text="Kaydet"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/goOn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/girisYap"
+        android:layout_alignStart="@+id/girisYap"
+        android:layout_below="@+id/girisYap"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/konteyn"
+        android:text="Devam >>"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.led_on_off.led.MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fon" />
+
+
+    <Button
+        android:id="@+id/Ses"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/Isik"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/arka"
+        android:text="Ses Modülü"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/Isik"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/Ses"
+        android:layout_alignStart="@+id/Ses"
+        android:layout_centerVertical="true"
+        android:background="@drawable/arka"
+        android:text="Işık Modülü"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/Sicaklik"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/Isik"
+        android:layout_alignStart="@+id/Isik"
+        android:layout_below="@+id/Ses"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/arka"
+        android:text="Bağlantıyı Kes"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/konteyn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="     Lütfen Çalıştırmak İstediğiniz
+                    Cihazı Seçiniz"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/Hakkinda"
+        android:text="Hakkında"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/arka"
+        android:layout_marginTop="510dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.led_on_off.led.Hakkinda"
+    android:background="#fdfdfe">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fon"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/konteyn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="140dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Süleyman Demirel Üniversitesi
+          Mühendislik Fakültesi
+         Bilgisayar Mühendisliği
+      Gerçek Zamanlı Sistemler
+                  Berk Özyurt
+                 1321012041"
+            android:textColor="@android:color/black"
+            android:textSize="27dp"
+            android:layout_marginTop="25dp"
+
+            />
+
+    </GridLayout>
+
+</RelativeLayout>

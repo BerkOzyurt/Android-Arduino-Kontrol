@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".CihazListesi"
+    android:background="#3c3f41">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fon"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/konteyn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="            Eşleştirilmiş Cihazlar"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Cihaz Ara"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/arka" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_marginTop="75dp"
+        android:layout_above="@+id/button" />
+
+
+
+
+</RelativeLayout>
