@@ -1,5 +1,5 @@
 # Android-Arduino-Kontrol
-Android ile Arduino Kontrol
+Arduino Control With Android Device
 
 This project allows you for control Ardunio with your Android device. The connection provides made with the Bluetooth sensor.
 
